@@ -1,0 +1,82 @@
+/*------------------
+layout
+-------------------*/
+#features{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#features img{
+	margin:0 0 20px;
+}
+
+#inputMessage{
+	margin-bottom: 15px;
+}
+
+.badge{
+	background-color: #000066;
+	text-align: center;
+}
+
+.map-responsive{
+	overflow: hidden;
+	padding-bottom: 56.25;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+dl{
+	text-align: left;
+}
+i{
+	text-align: left;
+	margin-left: 2px;
+	padding-left: 2px;
+}
+
+h3{
+    font-weight: bold;
+}
+label{
+    font-size:15px;
+}
+.thumbnails{
+    margin: 20px 0; 
+}
+
+.thumbnail{
+    position:relative;
+}  
+
+.thumbnail h3{
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+
+}
+
+/* Small devices (smartphone 600px and up) */
+@media (min-width: 600px) {
+       .thumbnail .price{
+           font-size:10px;
+           }
+        .thumbnail .price sup{
+            font-size: 10px;   
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
